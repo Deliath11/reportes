@@ -1,0 +1,1135 @@
+<!-- Informacion de Circuito -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="author" content="Deliath Cordero">
+  <meta content="Intranet para Tv Zamora" name="description">
+  <meta content="Html Css Bootstrap JavaScript" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/logo-tvz-1.png">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Archivos CSS del proveedor -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <title>Tv Zamora C.A │ Internet & Tv</title>
+</head>
+
+  <body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+      <!-- Logo de Tv Zamora -->
+      <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo-tvz-2.png" alt="logo tvzamora" class="logo-tvz">
+          <span class="d-none d-lg-block"></span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+      </div><!-- Final Logo de Tv Zamora -->
+  
+      <!-- Barra de Busqueda -->
+      <div class="search-bar">
+        <form class="search-form d-flex align-items-center" method="POST" action="#">
+          <input type="text" name="query" placeholder="Buscar" title="Enter search keyword">
+          <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+        </form>
+      </div><!-- Final de la Barra de busqueda -->
+  
+      <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+  
+          <!-- Busqueda de Iconos -->
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link nav-icon search-bar-toggle " href="#">
+              <i class="bi bi-search"></i>
+            </a>
+          </li><!-- Final de busqueda de Iconos-->
+  
+          <!-- Navegacion de Iconos -->
+          
+          <!-- Campana
+          <li class="nav-item dropdown">
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-bell"></i>
+              <span class="badge bg-primary badge-number">4</span>
+            </a> Final de Iconos de Navegacion -->
+  
+            <!-- Notificaciones Campana -->
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+              <li class="dropdown-header">
+                Tienes 4 notificaciones nuevas
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Ver todo</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="notification-item">
+                <i class="bi bi-exclamation-circle text-warning"></i>
+                <div>
+                  <h4>Lorem Ipsum</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>30 min. Ago</p>
+                </div>
+              </li>
+  
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="notification-item">
+                <i class="bi bi-x-circle text-danger"></i>
+                <div>
+                  <h4>Atque rerum nesciunt</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>1 hr. Ago</p>
+                </div>
+              </li>
+  
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="notification-item">
+                <i class="bi bi-check-circle text-success"></i>
+                <div>
+                  <h4>Sit rerum fuga</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>2 hrs. Ago</p>
+                </div>
+              </li>
+  
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="notification-item">
+                <i class="bi bi-info-circle text-primary"></i>
+                <div>
+                  <h4>Dicta reprehenderit</h4>
+                  <p>Quae dolorem earum veritatis oditseno</p>
+                  <p>4 hrs. Ago</p>
+                </div>
+              </li>
+  
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li class="dropdown-footer">
+                <a href="#">Mostrar todas las notificaciones</a>
+              </li>
+  
+            </ul><!-- End Notification Dropdown Items -->
+  
+          </li><!-- End Notification Nav -->
+  
+          <li class="nav-item dropdown">
+  
+            <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+              <i class="bi bi-chat-left-text"></i>
+              <span class="badge bg-success badge-number">3</span>
+            </a><!-- End Messages Icon -->
+  
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
+              <li class="dropdown-header">
+                Tienes 3 mensajes nuevos
+                <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">Ver todo</span></a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="message-item">
+                <a href="#">
+                  <img src="assets/img/messages-1.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>Maria Hudson</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>4 hrs. Ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="message-item">
+                <a href="#">
+                  <img src="assets/img/messages-2.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>Anna Nelson</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>6 hrs. Ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="message-item">
+                <a href="#">
+                  <img src="assets/img/messages-3.jpg" alt="" class="rounded-circle">
+                  <div>
+                    <h4>David Muldon</h4>
+                    <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
+                    <p>8 hrs. Ago</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li class="dropdown-footer">
+                <a href="#">Mostrar todos los mensajes</a>
+              </li>
+  
+            </ul><!-- End Messages Dropdown Items -->
+  
+          </li><!-- End Messages Nav -->
+  
+          <!-- Notificaciones Carta -->
+          <li class="nav-item dropdown pe-3">
+  
+            <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+              <img src="assets/img/logo-tvz-1.png" alt="Profile" class="rounded-circle">
+              <span class="perfil d-none d-md-block dropdown-toggle ps-2">Tv Zamora</span>
+            </a><!-- End Profile Iamge Icon -->
+  
+            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+              <li class="dropdown-header">
+                <h6>Tv Zamora </h6>
+                <span>Telecomunicaciones</span>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-person"></i>
+                  <span>Perfil</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                  <i class="bi bi-gear"></i>
+                  <span>Configuraciones de la cuenta</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                  <i class="bi bi-question-circle"></i>
+                  <span>Ayuda</span>
+                </a>
+              </li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+  
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <i class="bi bi-box-arrow-right"></i>
+                  <span>Salir</span>
+                </a>
+              </li>
+  
+            </ul><!-- End Profile Dropdown Items -->
+          </li><!-- End Profile Nav -->
+  
+        </ul>
+      </nav><!-- End Icons Navigation -->
+  
+    </header><!-- Final Header -->
+  
+    <!-- ======= Sidebar ======= -->
+    <!-- Barra de navegacion lateral -->
+    <aside id="sidebar" class="sidebar">
+  
+      <ul class="sidebar-nav" id="sidebar-nav">
+  
+        <!-- Inicio -->
+        <li class="nav-item">
+          <a class="nav-link " href="index.html">
+            <i class="bi bi-columns-gap"></i>
+            <span>Inicio</span>
+          </a>
+        </li><!-- Final Inicio Nav -->
+  
+        <!-- Componentes
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-menu-button-wide"></i><span>Components</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="components-alerts.html">
+                <i class="bi bi-circle"></i><span>Alerts</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-accordion.html">
+                <i class="bi bi-circle"></i><span>Accordion</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-badges.html">
+                <i class="bi bi-circle"></i><span>Badges</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-breadcrumbs.html">
+                <i class="bi bi-circle"></i><span>Breadcrumbs</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-buttons.html">
+                <i class="bi bi-circle"></i><span>Buttons</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-cards.html">
+                <i class="bi bi-circle"></i><span>Cards</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-carousel.html">
+                <i class="bi bi-circle"></i><span>Carousel</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-list-group.html">
+                <i class="bi bi-circle"></i><span>List group</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-modal.html">
+                <i class="bi bi-circle"></i><span>Modal</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-tabs.html">
+                <i class="bi bi-circle"></i><span>Tabs</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-pagination.html">
+                <i class="bi bi-circle"></i><span>Pagination</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-progress.html">
+                <i class="bi bi-circle"></i><span>Progress</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-spinners.html">
+                <i class="bi bi-circle"></i><span>Spinners</span>
+              </a>
+            </li>
+            <li>
+              <a href="components-tooltips.html">
+                <i class="bi bi-circle"></i><span>Tooltips</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- Final de Componentes Nav -->
+  
+        <!-- Formularios -->
+        <!-- Almacen -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-ticket-detailed"></i><span>Tickets</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="forms-elements.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Crear Ticket</span>
+              </a>
+            </li>
+            
+            <li>
+              <a href="forms-layouts.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Información de Circuito</span>
+              </a>
+            </li>
+            <li>
+              <!--  
+              <a href="tables-general.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general1.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Salida</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-chartjs.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-apexcharts.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Salida</span>
+              </a>
+            </li>-->
+          </ul>
+        </li> 
+        <!-- Final Almacen -->
+        
+        <!--Reporte -->
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav1" data-bs-toggle="collapse"     href="#">
+          <i class="bi bi-clipboard-data"></i><span>Reporte</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+      <ul id="forms-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="forms-elements1.html">
+            <i class="bi bi-stop-circle-fill"></i><span>Reporte de Circuito</span>
+          </a>
+        </li>
+        
+      </ul>
+    </li>
+    <!-- Final Proyecto   
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav1" data-bs-toggle="collapse"     href="#">
+              <i class="bi bi-laptop"></i><span>Proyecto</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+          <ul id="forms-nav1" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="forms-elements1.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-layouts1.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Salida</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-elements2.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Vlans</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-elements3.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Dirección IP</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general2.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general3.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Salida</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general4.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Vlans</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general5.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte IP</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-chartjs1.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-apexcharts1.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Salida</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- Final Proyecto   -->
+        
+        <!-- Electronica 
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#forms-nav2" data-bs-toggle="collapse"     href="#">
+            <i class="bi bi-cpu"></i><span>Electrónica</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="forms-nav2" class="nav-content collapse " data-bs-parent="#sidebar-nav">   
+            <li>
+              <a href="forms-editors.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="forms-editors2.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Salida</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general6.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-general7.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Reporte Salida</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-chartjs2.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Entrada</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-apexcharts2.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Gráfico Salida</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <!-- Final Electrónica -->
+
+        <!-- Final de Formulario Nav -->
+        
+        <!-- Ventas 
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#forms-nav4" data-bs-toggle="collapse"     href="#">
+            <i class="bi bi-receipt-cutoff"></i><span>Ventas</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+        <ul id="forms-nav4" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="forms-elements4.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Entrada</span>
+            </a>
+          </li>
+          <li>
+            <a href="forms-layouts2.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Salida</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-general8.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Reporte Entrada</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-general9.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Reporte Salida</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-chartjs3.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Gráfico Entrada</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-apexcharts3.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Gráfico Salida</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- Final Ventas -->
+  
+      <!-- Call Center 
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav5" data-bs-toggle="collapse"     href="#">
+          <i class="bi bi-headset"></i><span>Call Center</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav5" class="nav-content collapse " data-bs-parent="#sidebar-nav">   
+          <li>
+            <a href="forms-elemets5.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Ticket</span>
+            </a>
+          </li>
+          <li>
+            <a href="tables-general10.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Reporte Ticket</span>
+            </a>
+          </li>
+          <li>
+            <a href="charts-chartjs4.html">
+              <i class="bi bi-stop-circle-fill"></i><span>Gráfico Tickets</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- Final Call Center -->
+        
+      <!-- Reporte 
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-layout-text-window-reverse"></i><span>Reporte</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="tables-general.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Tabla General</span>
+              </a>
+            </li>
+            <li>
+              <a href="tables-data.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Tablas de datos</span>
+              </a>
+            </li>
+          </ul>
+        </li><!-- Final Reporte Nav -->
+  
+        <!-- Graficos 
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-bar-chart"></i><span>Gráfico</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="charts-chartjs.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Onu │ Nuevas</span>
+              </a>
+            </li>
+            <li>
+              <a href="charts-apexcharts.html">
+                <i class="bi bi-stop-circle-fill"></i><span>Onu │ Reparadas</span>
+              </a>
+            </li>
+            
+          </ul>
+        </li><!-- Final de Graficos Nav -->
+  
+        <!-- Icons
+        <li class="nav-item">
+          <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+            <i class="bi bi-gem"></i><span>Icons</span><i class="bi bi-chevron-down ms-auto"></i>
+          </a>
+          <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li>
+              <a href="icons-bootstrap.html">
+                <i class="bi bi-circle"></i><span>Bootstrap Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="icons-remix.html">
+                <i class="bi bi-circle"></i><span>Remix Icons</span>
+              </a>
+            </li>
+            <li>
+              <a href="icons-boxicons.html">
+                <i class="bi bi-circle"></i><span>Boxicons</span>
+              </a>
+            </li>
+          </ul>
+        </li> Final Icons Nav -->
+  
+        <li class="nav-heading">Páginas</li>
+  
+        <!-- Editar Perfil -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="users-profile.html">
+            <i class="bi bi-person"></i>
+            <span>Perfil</span>
+          </a>
+        </li><!-- Final Perfil Page Nav -->
+  
+        <!-- Preguntas frecuentes
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-faq.html">
+            <i class="bi bi-question-circle"></i>
+            <span>F.A.Q</span>
+          </a>
+        </li><!-- Final Preguntas frecuentes F.A.Q Page Nav -->
+  
+        <!-- Contacto 
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-contact.html">
+            <i class="bi bi-envelope"></i>
+            <span>Contacto</span>
+          </a>
+        </li><!-- Final Contacto Page Nav -->
+  
+        <!-- Registro -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-register.html">
+            <i class="bi bi-card-list"></i>
+            <span>Registro</span>
+          </a>
+        </li><!-- Final Registro Page Nav -->
+  
+        <!-- Acceso -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-login.html">
+            <i class="bi bi-box-arrow-in-right"></i>
+            <span>Acceso</span>
+          </a>
+        </li><!-- Final acceso Page Nav -->
+  
+        <!-- Error -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-error-404.html">
+            <i class="bi bi-dash-circle"></i>
+            <span>Error 404</span>
+          </a>
+        </li><!-- Final Error 404 Page Nav -->
+  
+        <!-- Blanco 
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="pages-blank.html">
+            <i class="bi bi-file-earmark"></i>
+            <span>Blank</span>
+          </a>
+        </li><!-- Final Blanco Blank Page Nav -->
+  
+      </ul>
+  
+    </aside><!-- End Sidebar-->
+    <!-- Cuerpo Principal -->
+    <main id="main" class="main">
+
+      <div class="pagetitle">
+      <h1>Ticket</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item">Tickets</li>
+          <li class="breadcrumb-item active">Reportes</li>
+        </ol>
+      </nav>
+      </div><!-- End Page Title -->
+
+      <section class="section">
+      <div class="row">
+        <div class="col-md-8 col-8">
+
+          <div class="card tarjeta-entrada">
+            <div class="card-body">
+              <h5 class="card-title">Ingreso de Reporte</h5>
+
+              <!-- General Form Elements -->
+              <form class="formulario">
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-3 col-form-label">Codigo Ticket</label>
+                  <div class="col-sm-9">
+                    <input type="text" id="text" accept=".doc, .docx, .txt, .xlsx,  .xls, .pdf, .ppt, .zip, .cab" required class="form-control">
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-3 col-form-label">Nombre - Operario</label>
+                  <div class="col-sm-9">
+                    <input type="text" id="text" accept=".doc, .docx, .txt, .xlsx,  .xls, .pdf, .ppt, .zip, .cab" required class="form-control">
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-3 col-form-label">Nombre -Solicitante</label>
+                  <div class="col-sm-9">
+                    <input type="tex" id="tex" accept="" required class="form-control">
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-3 col-form-label">Observación</label>
+                  <div class="col-sm-9">
+                    <textarea class="form-control" placeholder="" id="floatingTextarea" style="height: 70px;"></textarea>
+                      <label for="floatingTextarea"></label>
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <label class="col-sm-3 col-form-label">Circuitos</label>
+                  <div class="col-sm-9">
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected> Descripción</option>
+                      <option value="1">Metro Linea - 1Gbps - 9216-0007768 - Caracas / Pto Ordaz - Sin Vlan</option>
+                      <option value="2">Metro Linea - 1Gbps - 9216-0007730 - Caracas / Pto Ordaz - Sin Vlan</option>
+                      <option value="3">Metro Linea - 1Gbps - 9216-0007763 - Caracas / Pto Ordaz - Sin Vlan</option>
+                      <option value="4">Metro Linea - 1Gbps - 9235-0000614- Caracas / Las Claritas - Sin Vlan</option>
+                      <option value="5">Internet Lan - 100Mbps - 9236-0000274 - Santa Elena de Uairen - N/A</option>
+                      <option value="6">Metro Linea - 60Mbps - 9236-0000274 - Pto Ordaz / Santa Elena - N/A</option>
+                      <option value="7">STM-4 - 622Mbps - 2301-0168564 - Caracas / Maturin - N/A</option>
+                      <option value="8">Internet Lan - 3Gbps - 15793 - Puerto Ordaz</option>
+                      <option value="9">Internet Lan - 2Gbps -  proceso - Maturin</option>
+                      <option value="10">Internet - 1000Mbps - 20-129 - Santa Barbara - Vlan 244</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label class="col-sm-3 col-form-label">Operador</label>
+                  <div class="col-sm-9">
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected>Proveedor</option>
+                      <option value="1">Cantv</option>
+                      <option value="2">Cantv / Ifx</option>
+                      <option value="3">Digitel</option>
+                      <option value="4">Digitel / Ifx</option>
+                      <option value="4">Vnet</option>
+                    </select>
+                  </div>
+                </div>
+                
+                <!-- Para re-uso 
+                <div class="row mb-3">
+                  <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputNumber" class="col-sm-2 col-form-label">Number</label>
+                  <div class="col-sm-10">
+                    <input type="number" class="form-control">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputNumber" class="col-sm-2 col-form-label">File Upload</label>
+                  <div class="col-sm-10">
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div> Final re-uso-->
+                
+                <div class="row mb-3">
+                  <label for="inputDate" class="col-sm-3 col-form-label">Día - Hora - Inicio</label>
+                  <div class="col-sm-9">
+                    <input type="datetime-local" class="form-control" required>
+                  </div>
+                </div>
+
+                <!-- Hora 
+                <div class="row mb-3">
+                  <label for="inputTime" class="col-sm-2 col-form-label">Hora</label>
+                  <div class="col-sm-10">
+                    <input type="time" class="form-control">
+                  </div>
+                </div>Final Hora-->
+
+                <!-- Color, Checkbox,Radios 
+                <div class="row mb-3">
+                  <label for="inputColor" class="col-sm-2 col-form-label">Color Picker</label>
+                  <div class="col-sm-10">
+                    <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#4154f1" title="Choose your color">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="inputPassword" class="col-sm-2 col-form-label">Textarea</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" style="height: 100px"></textarea>
+                  </div>
+                </div>
+                <fieldset class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        First radio
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                      <label class="form-check-label" for="gridRadios2">
+                        Second radio
+                      </label>
+                    </div>
+                    <div class="form-check disabled">
+                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios" value="option" disabled>
+                      <label class="form-check-label" for="gridRadios3">
+                        Third disabled radio
+                      </label>
+                    </div>
+                  </div>
+                </fieldset>
+                
+                <div class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Checkboxes</legend>
+                  <div class="col-sm-10">
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck1">
+                      <label class="form-check-label" for="gridCheck1">
+                        Example checkbox
+                      </label>
+                    </div>
+
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck2" checked>
+                      <label class="form-check-label" for="gridCheck2">
+                        Example checkbox 2
+                      </label>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Disabled</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" value="Read only / Disabled" disabled>
+                  </div>
+                </div> Final Color, Checkbox,Radios -->
+
+                <!-- Radios 
+                <div class="row mb-3">
+                  <legend class="col-form-label col-sm-2 pt-0">Tipo Ont</legend>
+                  <div class="col-sm-10 radio">
+                      <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                            Con Catv
+                          </label>
+                      </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                            Sin Catv
+                          </label>
+                        </div>
+                  </div>
+                </div> 
+                <!-- Final de boton de radio -->
+
+                <!-- Seleccion con droxbox para reuso 
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Lote</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected>Abrir este menú de selección</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="3">4</option>
+                      <option value="3">5</option>
+                    </select>
+                  </div>
+                </div>  <!-- Final de Seleccion--> 
+
+                <!-- Selccion Multiple 
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Multi Select</label>
+                  <div class="col-sm-10">
+                    <select class="form-select" multiple aria-label="multiple select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div> Final Seleccion Multiple-->
+
+                <div class="row mb-3  boton-1">
+                  <label class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary" required>Guardar</button>
+                    <button type="submit" class="btn btn-primary" required>Modificar</button>
+                    <button type="submit" class="btn btn-danger" required>Eliminar</button>
+                  </div>
+                </div>
+
+              </form><!-- End General Form Elements -->
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Forma de elementos avanzados 
+        <div class="col-lg-6">
+
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Form Elements</h5>
+
+              <!-- Advanced Form Elements 
+              <form>
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label">Switches</label>
+                  <div class="col-sm-10">
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                      <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                      <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                      <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+                    </div>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                      <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label">Ranges</label>
+                  <div class="col-sm-10">
+                    <div>
+                      <label for="customRange1" class="form-label">Example range</label>
+                      <input type="range" class="form-range" id="customRange1">
+                    </div>
+                    <div>
+                      <label for="disabledRange" class="form-label">Disabled range</label>
+                      <input type="range" class="form-range" id="disabledRange" disabled>
+                    </div>
+                    <div>
+                      <label for="customRange2" class="form-label">Min and max with steps</label>
+                      <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange2">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-3">
+                  <label class="col-sm-2 col-form-label">Floating labels</label>
+                  <div class="col-sm-10">
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px;"></textarea>
+                      <label for="floatingTextarea">Comments</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <label for="floatingSelect">Works with selects</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row mb-5">
+                  <label class="col-sm-2 col-form-label">Input groups</label>
+                  <div class="col-sm-10">
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1">@</span>
+                      <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                      <span class="input-group-text" id="basic-addon2">@example.com</span>
+                    </div>
+
+                    <label for="basic-url" class="form-label">Your vanity URL</label>
+                    <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                      <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">$</span>
+                      <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                      <span class="input-group-text">.00</span>
+                    </div>
+
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                      <span class="input-group-text">@</span>
+                      <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                    </div>
+
+                    <div class="input-group">
+                      <span class="input-group-text">With textarea</span>
+                      <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+              </form><!-- End General Form Elements -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </section>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer pagina">
+      <div class="center">
+        <a href="https://tvzamora.com/" target="_blank">
+          <i class="bi bi-globe2" data-bs-toggle="tooltip" data-bs-placement="top" title="Tv Zamora"></i>
+        </a>
+        <a href="https://twitter.com/tvzamoraVE" target="_blank">
+          <i class="bi bi-twitter" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/tvzamorave/" target="_blank">
+          <i class="bi bi-instagram" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100064114811363" target="_blank">
+          <i class="bi bi-facebook" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"></i>
+        </a>
+        <a href="http://10.162.10.14/apro/" target="_blank">
+          <i class="bi bi-globe-americas" data-bs-toggle="tooltip" data-bs-placement="top" title="Aprovisiomiento"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright<strong><span> Tv Zamora 2023</span></strong> <br> Todos los Derechos Reservados
+      </div>
+    </footer><!-- Final del  Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+  </body>
+
+</html>
