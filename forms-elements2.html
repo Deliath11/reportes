@@ -1,4 +1,4 @@
-<!-- Reporte-->
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -63,7 +63,7 @@
             </a>
           </li><!-- Final de busqueda de Iconos-->
   
-          <!-- Notificaciones Campana -->
+            <!-- Notificaciones Campana -->
             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
               <li class="dropdown-header">
                 Tienes 4 notificaciones nuevas
@@ -274,6 +274,7 @@
           </a>
         </li><!-- Final Inicio Nav -->
   
+        
         <!-- Almacen -->
         <li class="nav-item">
           <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
@@ -285,13 +286,11 @@
                 <i class="bi bi-stop-circle-fill"></i><span>Información de Circuito</span>
               </a>
             </li>
-            
             <li>
               <a href="forms-elements.html">
                 <i class="bi bi-stop-circle-fill"></i><span>Crear Ticket</span>
               </a>
             </li>
-            <li>
           </ul>
         </li> 
         <!-- Final Almacen -->
@@ -307,7 +306,7 @@
             <i class="bi bi-stop-circle-fill"></i><span>Cierre de Falla</span>
           </a>
         </li>
-        <li>
+				<li>
           <a href="forms-elements1.html">
             <i class="bi bi-stop-circle-fill"></i><span>Reporte de Circuito</span>
           </a>
@@ -315,8 +314,7 @@
         
       </ul>
     </li>
-  
-      <li class="nav-heading">Páginas</li>
+            <li class="nav-heading">Páginas</li>
   
         <!-- Editar Perfil -->
         <li class="nav-item">
@@ -325,8 +323,8 @@
             <span>Perfil</span>
           </a>
         </li><!-- Final Perfil Page Nav -->
-  
-      <!-- Registro -->
+
+        <!-- Registro -->
         <li class="nav-item">
           <a class="nav-link collapsed" href="pages-register.html">
             <i class="bi bi-card-list"></i>
@@ -350,123 +348,68 @@
           </a>
         </li><!-- Final Error 404 Page Nav -->
   
-        
-  
       </ul>
   
     </aside><!-- End Sidebar-->
-
+    <!-- Cuerpo Principal -->
     <main id="main" class="main">
 
-    <!-- Cabezera main -->
       <div class="pagetitle">
-        <h1>Reporte de Circuitos</h1>
-        <nav>
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-            <li class="breadcrumb-item">Información</li>
-            <li class="breadcrumb-item active">Reportes</li>
-          </ol>
-        </nav>
-      </div><!-- Final cabezera main Page Title -->
-    
+      <h1>Ticket</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item">Tickets</li>
+          <li class="breadcrumb-item active">Reportes</li>
+        </ol>
+      </nav>
+      </div><!-- End Page Title -->
+
       <section class="section">
-        <!-- CANTV -->
-        <div class="row">
-          <div class="col-lg-7">
-              <p><b>Circuitos</b></p>
-  
-                <!-- Primary Color Bordered Table -->
-                <table class="tables table-bordered border-danger">
-                  <thead>
-                    <tr>
-                      <th scope="col">CODIGO TICKET</th>
-                      <th scope="col">OPERARIO</th>
-                      <th scope="col">SOLICITANTE</th>
-                      <th scope="col">OBSERVACION</th>
-                      <th scope="col">CIRCUITO</th>
-                      <th scope="col">OPERADOR</th>
-                      <th scope="col">DIA - HORA - INICIO</th>
-                      <th scope="col">DIA - HORA - FINAL</th>
-                      <th scope="col">DURACION</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">55555</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-0000000</td>
-                      <td>DIGITEL</td>
-                      <td>15-10-2000 8:00 am</td>
-                      <td>17-10-2000 8:00 am</td>
-                      <td>48 HORAS</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">55556</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-00011111</td>
-                      <td>CANTV / IFX</td>
-                      <td>15-10-2000 8:00 pm</td>
-                      <td>16-10-2000 8:00 am</td>
-                      <td>24 HORAS</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">55557</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-0002222</td>
-                      <td>CANTV</td>
-                      <td>15-10-2000 8:00 am</td>
-                      <td>18-10-2000 8:00 am</td>
-                      <td>72 HORAS</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">55558</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-0003333</td>
-                      <td>VNET</td>
-                      <td>15-10-2000 9:00 am</td>
-                      <td>17-10-2000 8:00 am</td>
-                      <td>48 HORAS</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">55559</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-0004444</td>
-                      <td>CANTV</td>
-                      <td>15-10-2000 12:00 pm</td><td>17-10-2000 8:00 am</td>
-                      <td>48 HORAS</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">55560</th>
-                      <td>Pedro Pereira</td>
-                      <td>Andy Suarez</td>
-                      <td>Corte de fibra </td>
-                      <td>9216-0005555</td>
-                      <td>DIGITEL / IFX</td>
-                      <td>15-10-2000 10:00 am</td>
-                      <td>15-10-2000 10:00 Pm</td>
-                      <td>12 HORAS</td>
-                    </tr>
-                  </tbody>
-                </table>
-            </div>
+      <div class="row">
+        <div class="col-md-8 col-8">
+
+          <div class="card tarjeta-entrada1">
+            <div class="card-body">
+              <h5 class="card-title">Ingreso de Reporte</h5>
+
+              <!-- General Form Elements -->
+              <form class="formulario">
+                <div class="row mb-3">
+                  <label for="inputText" class="col-sm-3 col-form-label">Codigo Ticket</label>
+                  <div class="col-sm-9">
+                    <input type="text" id="text" accept=".doc, .docx, .txt, .xlsx,  .xls, .pdf, .ppt, .zip, .cab" required class="form-control">
+                  </div>
+                </div>
+                
+                <div class="row mb-3">
+                  <label for="inputDate" class="col-sm-3 col-form-label">Día - Hora - Final</label>
+                  <div class="col-sm-9">
+                    <input type="datetime-local" class="form-control" required>
+                  </div>
+                </div>
+                
+                <div class="row mb-3  boton-1">
+                  <label class="col-sm-2 col-form-label"></label>
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary" required>Guardar</button>
+                    <button type="submit" class="btn btn-primary" required>Modificar</button>
+                    <button type="submit" class="btn btn-danger" required>Eliminar</button>
+                  </div>
+                </div>
+
+              </form><!-- End General Form Elements -->
+
+            
+
         </div>
+      </div>
       </section>
-    
+
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer" class="footer pie-pagina">
+    <footer id="footer" class="footer pagina1">
       <div class="center">
         <a href="https://tvzamora.com/" target="_blank">
           <i class="bi bi-globe2" data-bs-toggle="tooltip" data-bs-placement="top" title="Tv Zamora"></i>

@@ -1419,10 +1419,15 @@ h6 {
 }
 
 .tables{
-  width: 220%;
+  width: 235%;
   height: 100px;
+  font-size: 14px;
 }
 
 .pie-pagina{
-  margin-top: 146px;
+  margin-top: 167px;
+}
+
+.pagina1{
+  margin-top: 42px;
 }
